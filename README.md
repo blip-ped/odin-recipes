@@ -1,2 +1,2 @@
 # odin-recipes
-This is a collection of recipies :)
+This is a collection of recipes :)
