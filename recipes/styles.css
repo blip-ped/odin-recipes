@@ -1,0 +1,23 @@
+.main 
+    {
+        background-color: #1e1e2e;
+        font-family: consolas;
+    }
+    .para
+    {
+        color: #cdd6f4;
+        text-align: center;
+        font-size: x-large;
+        position: sticky;
+        top: 0px;
+    }
+    .momos
+    {
+        color: aliceblue;
+        text-align: left;
+        
+        border: dotted #a6e3a1;
+        height: 50vh;
+        width: 50vw;
+        
+    }
