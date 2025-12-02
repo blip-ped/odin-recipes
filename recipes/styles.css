@@ -2,22 +2,31 @@
     {
         background-color: #1e1e2e;
         font-family: consolas;
+        
     }
-    .para
-    {
+.head
+{
+       
         color: #cdd6f4;
+        border: 1px solid #94e2d5;
+        padding: 10px;
+        display: inline-block;
+        margin-left: 25vw;
         text-align: center;
-        font-size: x-large;
-        position: sticky;
-        top: 0px;
-    }
-    .momos
-    {
-        color: aliceblue;
-        text-align: left;
-        
-        border: dotted #a6e3a1;
-        height: 50vh;
-        width: 50vw;
-        
-    }
+        font-size: medium;
+}
+    
+.para 
+{
+    color: #cdd6f4;
+    border: 1px solid #f9e2af;
+    height: 100vh;
+    padding: 10px;
+    text-align: right;
+
+}
+.samosajpg
+{
+    border: 3px dotted #f38ba8;
+
+}
