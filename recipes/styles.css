@@ -1,7 +1,8 @@
 .main 
     {
         background-color: #1e1e2e;
-        font-family: consolas;        
+        font-family: consolas;    
+        color: #a6e3a1;    
     }
 .head
 {
@@ -25,7 +26,7 @@
 .para 
 {
     color: #f9e2af;
-    height: 100vh;
+    height: 25vh;
     padding: 10px;
     text-align: right;
 
@@ -43,3 +44,15 @@
     transform: scale(1.25);
     transition: scale(5sec);
 }   
+.frame-container
+{
+display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh;
+}
+.iframe
+{
+    color: #a6e3a1;
+    border-radius: 10px;
+}
