@@ -1,0 +1,91 @@
+/* GLOBAL STYLES */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fdfbf7; /* Slight cream color */
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* RECIPE CARD CONTAINER */
+.recipe {
+    background-color: white;
+    width: 100%;
+    max-width: 700px; /* Keeps it from getting too wide */
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Soft shadow for pop effect */
+    border-top: 5px solid #d35400; /* Orange top border for style */
+}
+
+/* HEADINGS */
+h2 {
+    color: #d35400; /* Burnt Orange */
+    margin-top: 0;
+    font-size: 28px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #555;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+/* TABLE STYLING */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    color: #333;
+    width: 30%; /* Gives the quantity column less space */
+}
+
+td {
+    color: #555;
+}
+
+/* Alternate row colors (Zebra Striping) */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* CHECKLIST / STEPS STYLING */
+form div {
+    margin-bottom: 12px;
+    font-size: 18px;
+    line-height: 1.5;
+    display: flex; /* Aligns checkbox with text perfectly */
+    align-items: flex-start;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.3); /* Makes checkbox bigger */
+    margin-right: 15px;
+    margin-top: 5px;
+    cursor: pointer;
+    accent-color: #d35400; /* Makes the checkmark orange when clicked */
+}
+
+/* HIDE THE SEPARATOR LINE (HR) because we are using cards now */
+hr {
+    display: none;
+}
