@@ -1,7 +1,7 @@
 
 body {
     font-family: 'Courier New', Courier, monospace;
-    background-color: #6c7086; 
+    background-color: #11111b; 
     color: #fffdfd;
     margin: 0;
     padding: 20px;
@@ -42,6 +42,7 @@ body > div {
     padding: 30px;
     border-radius: 12px;
     border-top: 5px solid #cba6f7;
+    border-bottom: 5px solid #cba6f7;
 }
 
 
