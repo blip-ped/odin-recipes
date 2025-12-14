@@ -1,30 +1,28 @@
-/* ===========================
-   GLOBAL STYLES (Applies to all pages)
-   =========================== */
+
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #fdfbf7; /* Warm Cream background */
-    color: #4a4a4a;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #6c7086; 
+    color: #fffdfd;
     margin: 0;
     padding: 20px;
     line-height: 1.6;
 }
 
 h1 {
-    color: #d35400; /* Burnt Orange */
+    color: #f38ba8; 
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 10px;
 }
 
 h2 {
-    color: #6d4c41; /* Chocolate Brown */
+    color: #f38ba8; 
     border-bottom: 2px solid #e0e0e0;
     padding-bottom: 10px;
 }
 
 h3 {
-    color: #d35400;
+    color: #a6e3a1;
     font-size: 18px;
     margin-top: 20px;
 }
@@ -36,43 +34,36 @@ hr {
     margin: 30px 0;
 }
 
-/* ===========================
-   RECIPE CARD STYLING (Index Page)
-   =========================== */
-/* This targets the divs that hold the recipes */
+
 body > div {
-    background-color: white;
-    max-width: 800px;
-    margin: 0 auto 30px auto; /* Centered */
+    background-color: #1e1e2e;
+    max-width: 1000px;
+    margin: 0 auto 30px auto; 
     padding: 30px;
     border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.05); /* Soft shadow */
-    border-top: 5px solid #d35400;
+    border-top: 5px solid #cba6f7;
 }
 
-/* Center the main title and footer */
+
 h1[align="center"], div[align="center"] {
     text-align: center;
 }
 
-/* ===========================
-   IFRAME STYLING
-   =========================== */
+
 iframe {
     border: none;
-    background-color: #fff;
+    background-color: #45475a;
     border-radius: 8px;
     margin-bottom: 10px;
     display: block;
 }
 
-/* ===========================
-   TABLE STYLING (Ingredients & Forms)
-   =========================== */
+
+
 table {
     width: 100%;
     border-collapse: collapse;
-    background-color: white;
+    background-color: #181825;
     font-size: 15px;
 }
 
@@ -83,20 +74,17 @@ th, td {
 }
 
 th {
-    background-color: #fcefe3; /* Light orange tint */
-    color: #d35400;
+    background-color: #eba0ac;   
+    color: #cba6f7;
     font-weight: bold;
 }
 
-/* Zebra striping for rows */
+
 tr:nth-child(even) {
-    background-color: #fafafa;
+    background-color: #1e1e2e;
 }
 
-/* ===========================
-   FORM & CHECKLIST STYLING
-   =========================== */
-/* Steps Checklist */
+/*Checklist*/
 form p {
     margin: 10px 0;
     font-size: 16px;
@@ -108,11 +96,11 @@ input[type="checkbox"] {
     width: 18px;
     height: 18px;
     margin-right: 10px;
-    accent-color: #d35400;
+    accent-color: #cba6f7;
     cursor: pointer;
 }
 
-/* Text Inputs (Registration/Login) */
+/*Registration*/
 input[type="text"], 
 input[type="email"], 
 input[type="password"], 
@@ -122,20 +110,20 @@ textarea {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    font-family: inherit;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 input[type="text"]:focus, 
 input[type="email"]:focus, 
 input[type="password"]:focus {
-    border-color: #d35400;
+    border-color: #cba6f7;
     outline: none;
     background-color: #fffaf5;
 }
 
 /* Buttons */
 input[type="submit"], input[type="reset"] {
-    background-color: #d35400;
+    background-color: #cba6f7;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -148,18 +136,16 @@ input[type="submit"], input[type="reset"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #a04000;
+    background-color: #eba0ac;
 }
 
 input[type="reset"] {
     background-color: #7f8c8d;
 }
 
-/* ===========================
-   LINK STYLING
-   =========================== */
+
 a {
-    color: #d35400;
+    color: #cba6f7;
     text-decoration: none;
     font-weight: bold;
 }
